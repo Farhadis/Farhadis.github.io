@@ -1,1 +1,85 @@
 hello world
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.css"
+      integrity="sha512-+ouAqATs1y4kpPMCHfKHVJwf308zo+tC9dlEYK9rKe7kiP35NiP+Oi35rCFnc16zdvk9aBkDUtEO3tIPl0xN5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <title>BOOKI</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="header">
+        <div>
+          <img src="Images/logo/Booki@3x.png" alt="image du logo" />
+        </div>
+
+        <nav class="nav">
+          <a class="a-hebergement" href="#hebergement">Hébergements</a>
+          <a class="a-activite" href="#activite">Activités</a>
+        </nav>
+      </div>
+
+      <div>
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p class="subtitle">En plain centre ville ou en plaine nature</p>
+      </div>
+
+      <form class="globe">
+        <i class="fa-sharp fa-solid fa-location-dot"></i>
+        <input
+          type="search"
+          id="ma-recherche"
+          name="q"
+          placeholder="Marseille, France"
+        />
+        <button class="button_recherche">
+          <span>Rechercher</span><i id="loupe"
+            class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+
+      <div class="filtre">
+        <div class="filtre_title">
+          <h3>Filtres</h3>
+        </div>
+        <div class="filtre_button">
+          <button>
+            <i class="fa-sharp fa-solid fa-money-bill-wave"></i>Économique
+          </button>
+          <button><i class="fa-solid fa-person"></i>Familial</button>
+          <button><i class="fa fa-heart"></i>Romantique</button>
+          <button><i class="fa-solid fa-dog"></i>Animaux autorisés</button>
+        </div>
+      </div>
+
+      <div class="icon">
+        <div>
+          <div class="s_icon">
+            <i class="fa fa-info"></i>
+          </div>
+        </div>
+
+        <p class="p_500">
+          Plus de 500 logements sont disponible dans cette ville
+        </p>
+      </div>
+    </header>
+  </body>
